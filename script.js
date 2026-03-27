@@ -1,4 +1,4 @@
-// Supabase configuration - REPLACE WITH YOUR VALUES!
+
 const SUPABASE_URL = 'https://qpbnivtoewrcjjafauoi.supabase.co';  // Your Project URL
 const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFwYm5pdnRvZXdyY2pqYWZhdW9pIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQ2MjAzNDIsImV4cCI6MjA5MDE5NjM0Mn0.gxpSV9SrvV_QQA5fIAhU_voAxoSUcsutscCgFV4AaqY';  // Your anon public key
 
