@@ -4,21 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Red & Blue Button Clicker</title>
+    <title>Global Button Clicker</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="container">
-        <h1>Button Clicker</h1>
-        <div class="score">
-            Score: <span id="score">0</span>
+        <h1>🌍 Global Button Clicker</h1>
+
+        <div class="your-score">
+            <h3>Your Clicks</h3>
+            <div class="score" id="yourScore">0</div>
         </div>
+
         <div class="buttons">
-            <button id="redBtn" class="btn red">Red (+1)</button>
-            <button id="blueBtn" class="btn blue">Blue (+1)</button>
+            <button id="redBtn" class="btn red">🔴 Red (+1)</button>
+            <button id="blueBtn" class="btn blue">🔵 Blue (+1)</button>
         </div>
-        <button id="resetBtn" class="reset">Reset</button>
+
+        <div class="global-stats">
+            <h3>🌐 Global Totals</h3>
+            <div>Red Clicks: <span id="globalRed">0</span></div>
+            <div>Blue Clicks: <span id="globalBlue">0</span></div>
+            <div>Total Clicks: <span id="globalTotal">0</span></div>
+        </div>
+
+        <button id="resetBtn" class="reset">Reset My Score</button>
     </div>
     <script src="script.js"></script>
 </body>
