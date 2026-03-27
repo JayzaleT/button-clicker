@@ -1,37 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global Button Clicker</title>
+    <title>Button Clicker - Supabase</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 </head>
-
 <body>
     <div class="container">
-        <h1>🌍 Global Button Clicker</h1>
-
+        <h1>🎮 Global Button Clicker</h1>
+        
         <div class="your-score">
             <h3>Your Clicks</h3>
             <div class="score" id="yourScore">0</div>
         </div>
-
+        
         <div class="buttons">
             <button id="redBtn" class="btn red">🔴 Red (+1)</button>
             <button id="blueBtn" class="btn blue">🔵 Blue (+1)</button>
         </div>
-
+        
         <div class="global-stats">
             <h3>🌐 Global Totals</h3>
-            <div>Red Clicks: <span id="globalRed">0</span></div>
-            <div>Blue Clicks: <span id="globalBlue">0</span></div>
-            <div>Total Clicks: <span id="globalTotal">0</span></div>
+            <div>🔴 Red Clicks: <span id="globalRed">0</span></div>
+            <div>🔵 Blue Clicks: <span id="globalBlue">0</span></div>
+            <div>📊 Total Clicks: <span id="globalTotal">0</span></div>
         </div>
-
-        <button id="resetBtn" class="reset">Reset My Score</button>
+        
+        <button id="resetBtn" class="reset">🔄 Reset My Score</button>
+        
+        <div class="loading" id="loading" style="display: none;">
+            Loading...
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
-
 </html>
